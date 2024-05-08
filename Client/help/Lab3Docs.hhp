@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Lab3Docs.chm
+Contents file=Table of Contents.hhc
+Default topic=content\main\main.html
+Display compile progress=No
+Language=0x422 Украинский (Украина)
+Title=Лабораторна робота №3 | Документація
+
+
+[FILES]
+content\holdings\main_holdings.html
+content\main\main.html
+content\masters\main_masters.html
+content\industry\main_industry.html
+
+[INFOTYPES]
+
