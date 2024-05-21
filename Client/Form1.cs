@@ -23,8 +23,20 @@ namespace Client
         {
             service = new ServiceClient();
 
-            a =  service.GetDatasets();
             
+            try
+            {
+                a = service.GetDatasets();
+            }
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show("Сталася помилка на стороні сервера: " + ex.Message, "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+                return;
+            }
+            
+
 
             dataGridViewIndustry.DataSource = a.IndustryDataSet.Tables[6];
             dataGridViewHoldings.DataSource = a.HoldingsDataSet.Tables[6];
