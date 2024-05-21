@@ -191,7 +191,7 @@ namespace Client
                 "Катерина Біленко\n" +
                 "Кароліна Гордієнко\n" +
                 "Дарина Ковтун\n" +
-                "Євген Ковтун"
+                "Євгеній Ковтун"
                 );
 
         private void helpContextToolStripMenuItem_Click(object sender, EventArgs e) => HelpUtils.ShowHelp(this, "content/main/main.html");
